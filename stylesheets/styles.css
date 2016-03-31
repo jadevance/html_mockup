@@ -83,8 +83,8 @@ nav li {
 	float: left; 
 }
 
-.featured_link a{
-	text-align: right; 
+.featured_link {
+	float: right; 
 }
 
 #biscuit{
