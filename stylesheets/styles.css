@@ -13,9 +13,9 @@ a {
 }
 
 header {
-	position: relative;
 	background-color: black;
 	color: white;
+	position: relative;
 	width: 100%;
 }
 
@@ -25,12 +25,12 @@ header p a {
 
 
 h1 {
-	padding-top: 50px; 
-	padding-left: 0px; 
-	padding-bottom: 0px; 
-	margin-bottom: 0px; 
 	font-size: 36px; 
 	font-weight: lighter; 
+	margin-bottom: 0px; 
+	padding-bottom: 0px; 
+	padding-left: 0px; 
+	padding-top: 50px; 
 }
 
 h2 {
@@ -39,8 +39,8 @@ h2 {
 
 #slogan {
 	color:grey;
-	padding-bottom: 5px; 
 	margin-top: 0px; 
+	padding-bottom: 5px; 
 }
 
 nav {
@@ -53,34 +53,34 @@ nav a {
 
 nav ul{
 	list-style-type: none;
-	padding-top: 10px;
 	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 nav li {
 	display: inline; 
-	text-transform: capitalize;
 	padding: 15px 15px;
+	text-transform: capitalize;
 }
 
 .story {  
-	position: relative;
 	font-weight: normal;
-	width: 55%; 	
-	padding:0px 50px 0px 25px;
 	float: left; 
+	padding:0px 50px 0px 25px;
+	position: relative;
+	width: 55%; 	
 
 }
 
 .featured {
-	text-align: center;
-	border-width: 1px;
-	border-style: solid;
 	border-color: black; 
+	border-style: solid;
+	border-width: 1px;
 	box-shadow: 1px 1px 5px #888888; 
-	width: 42%; 
-	margin: 0px 20px 25px 0px; 
 	float: left; 
+	margin: 0px 20px 25px 0px; 
+	text-align: center;
+	width: 42%; 
 }
 
 .featured_link {
@@ -88,33 +88,33 @@ nav li {
 }
 
 #biscuit{
-	width: 200px;
 	height: 150px;
+	width: 200px;
 }
 
 #odin {
-	width: 200px;
 	height: 150px;
+	width: 200px;
 }
 
 figcaption {
-	text-align: center; 
 	font-weight: lighter;
+	text-align: center; 
 }
 
 address {
+	font-style: normal; 
+	line-height: 8px;
 	padding-top: 10px;
 	text-align: left;
-	line-height: 8px;
-	font-style: normal; 
 }
 
 footer {
 	background-color: black;
 	color: white;
-	text-align: center;
-	line-height: 8px;
 	clear: both;
-	padding-bottom: 10px
+	line-height: 8px;
+	padding-bottom: 10px;
+	text-align: center;
 
 }
