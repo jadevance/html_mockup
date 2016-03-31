@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: verdana;
+	font-weight: normal; 
+}
+
+a {
+	color:red;
+	font-size: 18px;  
+}
+
+header {
+	position: relative;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+header p a {
+	float: right;
+}
+
+
+h1 {
+	padding-top: 50px; 
+	padding-left: 0px; 
+	padding-bottom: 0px; 
+	margin-bottom: 0px; 
+	font-size: 36px; 
+	font-weight: lighter; 
+}
+
+h2 {
+	font-weight: lighter; 	
+}
+
+#slogan {
+	color:grey;
+	padding-bottom: 5px; 
+	margin-top: 0px; 
+}
+
+nav {
+	background-color:grey;	
+
+}
+nav a {
+	color: purple; 
+}
+
+nav ul{
+	list-style-type: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav li {
+	display: inline; 
+	text-transform: capitalize;
+	padding: 15px 15px;
+}
+
+.story {  
+	position: relative;
+	font-weight: normal;
+	width: 55%; 	
+	padding:0px 50px 0px 25px;
+	float: left; 
+
+}
+
+.featured {
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black; 
+	box-shadow: 1px 1px 5px #888888; 
+	width: 42%; 
+	margin: 0px 20px 25px 0px; 
+	float: left; 
+}
+
+.featured_link a{
+	text-align: right; 
+}
+
+#biscuit{
+	width: 200px;
+	height: 150px;
+}
+
+#odin {
+	width: 200px;
+	height: 150px;
+}
+
+figcaption {
+	text-align: center; 
+	font-weight: lighter;
+}
+
+address {
+	padding-top: 10px;
+	text-align: left;
+	line-height: 8px;
+	font-style: normal; 
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	line-height: 8px;
+	clear: both;
+	padding-bottom: 10px
+
+}
